@@ -123,6 +123,9 @@ class WEST3
             "FirstAidKit",
             "ACE_M84",
 		    "ACE_M84",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
 			"ACE_M84",
 			"ACE_morphine",
 			"ACE_morphine",
@@ -265,4 +268,264 @@ class WEST3
         uniformClass = "LOP_U_UVF_Fatigue_BL";
         backpack = "tf_rt1523g_black";
     };
-};
+	 	class EAST1
+    {
+        displayName = "Lider de Esquadra"; // Nome de escolha no menu
+        icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
+        role = "Rifleman";
+        // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
+        weapons[] = {
+            "rhs_weap_ak74m_desert",
+            "ACE_Vector"
+        };
+        magazines[] = {
+            "rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK"
+			
+        };
+        items[] = {
+            "FirstAidKit",
+            "Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"ACE_Flashlight_XL50"
+			
+		};
+        linkedItems[] = {
+            "rhs_6b28_green",
+		    "V_TacVest_oli",
+			"rhs_acc_dtk",
+			"rhs_acc_pkas",
+			"rhs_acc_1p29",
+			"ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "tf_fadak"
+        };
+        uniformClass = "LOP_U_UA_Fatigue_01";
+        backpack = "tf_anarc164";
+    };
+ 	class EAST2
+    {
+        displayName = "Fuzileiro"; // Nome de escolha no menu
+        icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
+        role = "Rifleman";
+        // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
+        weapons[] = {
+            "rhs_weap_ak74m_desert",
+            "ACE_Vector"
+        };
+        magazines[] = {
+            "rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK"
+			
+        };
+        items[] = {
+            "FirstAidKit",
+            "Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"ACE_Flashlight_XL50"
+			
+		};
+        linkedItems[] = {
+            "rhs_6b28_green",
+		    "V_TacVest_oli",
+			"rhs_acc_dtk",
+			"rhs_acc_pkas",
+			"rhs_acc_2dpZenit",
+			"ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "tf_fadak"
+        };
+        uniformClass = "LOP_U_UA_Fatigue_01";
+        backpack = "B_Kitbag_rgr";
+    };
+     class EAST3
+    {
+        displayName = "Medico de Combate"; // Nome de escolha no menu
+        icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
+        role = "Rifleman";
+        // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
+        weapons[] = {
+            "rhs_weap_ak74m_desert",
+            "ACE_Vector"
+        };
+        magazines[] = {
+            "rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK"
+			
+        };
+        items[] = {
+            "FirstAidKit",
+            "Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"FirstAidKit",
+            "ACE_M84",
+		    "ACE_M84",
+			"ACE_M84",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"ACE_Flashlight_XL50"
+			
+		};
+        linkedItems[] = {
+            "rhs_6b28_green",
+		    "V_TacVest_oli",
+			"rhs_acc_dtk",
+			"rhs_acc_pkas",
+			"rhs_acc_2dpZenit",
+			"ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "tf_fadak"
+        };
+        uniformClass = "LOP_U_UA_Fatigue_01";
+        backpack = "B_Kitbag_rgr";
+    };
+        class EAST4
+    {
+        displayName = "Atirador Designado"; // Nome de escolha no menu
+        icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
+        role = "Marksman";
+        // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
+        weapons[] = {
+            "rhs_weap_svdp_wd",
+            "ACE_Vector"
+        };
+        magazines[] = {
+            "rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1",
+			"rhs_10Rnd_762x54mmR_7N1"
+        };
+        items[] = {
+            "FirstAidKit",
+            "Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_FlareTripMine_Mag",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"ACE_Flashlight_XL50"
+		};
+        linkedItems[] = {
+            "V_BandollierB_cbr",
+			"rhs_Booniehat_m81",
+		    "V_TacVest_oli",
+			"rhs_acc_pso1m21",
+			"ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "tf_fadak"
+        };
+        uniformClass = "LOP_U_UA_Fatigue_01";
+        backpack = "B_AssaultPack_rgr";
+    };
+};  
