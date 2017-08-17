@@ -2,33 +2,267 @@ class CfgRespawnInventory
 {
     class WEST1
     {
-        displayName = "Light"; // Nome de escolha no menu
+        displayName = "Lider de Esquadra"; // Nome de escolha no menu
         icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
-
+        role = "Rifleman";
         // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
         weapons[] = {
-            "arifle_MXC_F",
-            "Binocular"
+            "rhs_weap_m4a1_carryhandle",
+            "ACE_Vector"
         };
         magazines[] = {
-            "30Rnd_65x39_caseless_mag",
-            "30Rnd_65x39_caseless_mag",
-            "SmokeShell"
+            "rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag"
         };
         items[] = {
-            "FirstAidKit"
-        };
+            "FirstAidKit",
+            "ACE_M84",
+		    "ACE_M84",
+			"ACE_M84",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"I_IR_Grenade",
+		    "I_IR_Grenade",
+			"I_IR_Grenade",
+			"ACE_EarPlugs",
+			"ACE_Flashlight_XL50"
+		};
         linkedItems[] = {
-            "V_Chestrig_khk",
-            "H_Watchcap_blk",
-            "optic_Aco",
-            "acc_flashlight",
+            "rhs_weap_m4a1_carryhandle";,
+			"rhsusf_acc_anpeq15_bk_light",
+			"rhsusf_acc_ACOG_RMR",
+			"LOP_V_CarrierLite_BLK",
+			"rhs_googles_black",
+			"rhsusf_acc_grip3";,
+			"rhsusf_opscore_bk_pelt",
+			"rhsusf_ANPVS_14",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
-            "ItemRadio"
+            "tf_anprc152"
         };
-        uniformClass = "U_B_CombatUniform_mcam_tshirt";
-        backpack = "B_AssaultPack_mcamo";
+        uniformClass = "LOP_U_UVF_Fatigue_BL";
+        backpack = "tf_rt1523g_black";
+    };
+class WEST2
+    {
+        displayName = "Fuzileiro Leve"; // Nome de escolha no menu
+        icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
+        role = "Rifleman";
+        // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
+        weapons[] = {
+            "rhs_weap_m4a1_carryhandle",
+            "ACE_Vector"
+        };
+        magazines[] = {
+            "rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag"
+        };
+        items[] = {
+            "FirstAidKit",
+            "ACE_M84",
+		    "ACE_M84",
+			"ACE_M84",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"ACE_Flashlight_XL50"
+		};
+        linkedItems[] = {
+            "rhs_weap_m4a1_carryhandle";,
+			"rhsusf_acc_anpeq15_bk_light",
+			"rhsusf_acc_eotech_552",
+			"rhsusf_acc_grip3";,
+			"LOP_V_CarrierLite_BLK",
+			"rhsusf_opscore_bk_pelt",
+			"rhsusf_ANPVS_14",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "tf_anprc152"
+			
+        };
+        uniformClass = "LOP_U_UVF_Fatigue_BL";
+        backpack = "tf_rt1523g_black";
+    };
+class WEST3
+    {
+        displayName = "Medico de Combate"; // Nome de escolha no menu
+        icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
+        role = "Rifleman";
+        // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
+        weapons[] = {
+            "rhs_weap_m4a1_carryhandle",
+            "ACE_Vector"
+        };
+        magazines[] = {
+            "rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag"
+        };
+        items[] = {
+            "FirstAidKit",
+            "ACE_M84",
+		    "ACE_M84",
+			"ACE_M84",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_elasticBandage",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_epinephrine",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"ACE_personalAidKit",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"ACE_Flashlight_XL50"
+		};
+        linkedItems[] = {
+            "rhs_weap_m4a1_carryhandle";,
+			"rhsusf_acc_anpeq15_bk_light",
+			"rhsusf_acc_compm4",
+			"LOP_V_CarrierLite_BLK",
+			"rhsusf_opscore_bk_pelt",
+			"rhsusf_ANPVS_14",
+			"ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "tf_anprc152"
+        };
+        uniformClass = "LOP_U_UVF_Fatigue_BL";
+        backpack = "B_FieldPack_blk";
+    };
+ 	class WEST4
+    {
+        displayName = "Atirador Designado"; // Nome de escolha no menu
+        icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"; // Icone que aparece do lado. Pode ser custom
+        role = "Marksman";
+        // Definicao do loadout a ser carregado. Só apertar CTRL+C no aresnal pra ele copiar pra memoria
+        weapons[] = {
+            "rhs_weap_m24sws_blk",
+            "ACE_Vector"
+        };
+        magazines[] = {
+            "rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag",
+			"rhsusf_5Rnd_762x51_m118_special_Mag"
+        };
+        items[] = {
+            "FirstAidKit",
+            "ACE_M84",
+		    "ACE_M84",
+			"ACE_M84",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"Smoke_Shell",
+			"ACE_EarPlugs",
+			"ACE_FlareTripMine_Mag",
+			"ACE_Flashlight_XL50"
+			
+		};
+        linkedItems[] = {
+            "rhsusf_acc_anpeq15_bk_light",
+			"rhsusf_acc_LEUPOLDMK4",
+			"LOP_V_CarrierLite_BLK",
+			"rhsusf_opscore_bk_pelt",
+			"rhsusf_ANPVS_14",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "tf_anprc152"
+        };
+        uniformClass = "LOP_U_UVF_Fatigue_BL";
+        backpack = "tf_rt1523g_black";
     };
 };
