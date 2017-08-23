@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=7620;
+		nextID=7624;
 	};
 	class LayerIndexProvider
 	{
-		nextID=5761;
+		nextID=5882;
 	};
 	class Camera
 	{
-		pos[]={17012.664,30.993605,21849.773};
-		dir[]={0.24463689,-0.20876098,0.94688261};
-		up[]={0.052221738,0.97796649,0.20212804};
-		aside[]={0.96821606,-5.7916623e-008,-0.25014949};
+		pos[]={17673.309,73.761856,28750.953};
+		dir[]={0.12540911,-0.51774341,-0.84632063};
+		up[]={0.075892866,0.85552984,-0.51216227};
+		aside[]={-0.98921865,-1.497101e-007,-0.14658384};
 	};
 };
 binarizationWanted=0;
@@ -150,13 +150,14 @@ addons[]=
 	"A3_Structures_F_Bootcamp_VR_Helpers",
 	"A3_Structures_F_Civ_InfoBoards",
 	"ace_vehicles",
-	"A3_Structures_F_EPC_Civ_InfoBoards"
+	"A3_Structures_F_EPC_Civ_InfoBoards",
+	"A3_Misc_F_Helpers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=55;
+		items=56;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -541,6 +542,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item55
+		{
+			className="A3_Misc_F";
+			name="Arma 3 - 3D Aids and Helpers";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=2260844;
@@ -562,6 +570,25 @@ class CustomAttributes
 	{
 		name="Multiplayer";
 		class Attribute0
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
 		{
 			property="RespawnTemplates";
 			expression="true";
@@ -625,25 +652,6 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
 		nAttributes=2;
 	};
 	class Category1
@@ -696,7 +704,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=42;
+		items=40;
 		class Item0
 		{
 			dataType="Layer";
@@ -136123,9 +136131,10 @@ class Mission
 		{
 			dataType="Layer";
 			name="tvt_objcts";
+			state=1;
 			class Entities
 			{
-				items=75;
+				items=78;
 				class Item0
 				{
 					dataType="Object";
@@ -139260,7 +139269,7 @@ class Mission
 					};
 					id=7613;
 					type="Land_Camping_Light_F";
-					atlOffset=0.0016222;
+					atlOffset=0.0019254684;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -139300,6 +139309,7 @@ class Mission
 					};
 					id=7618;
 					type="Land_LightHouse_F";
+					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -139339,6 +139349,7 @@ class Mission
 					};
 					id=7619;
 					type="Land_LightHouse_F";
+					atlOffset=2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -139363,43 +139374,145 @@ class Mission
 						nAttributes=1;
 					};
 				};
+				class Item75
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17087.408,2.4314175,21947.992};
+						angles[]={-0,5.8711333,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7614;
+					type="B_Heli_Light_01_F";
+				};
+				class Item76
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17085.152,-22.359434,21948.689};
+						angles[]={0,1.1581831,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						disableSimulation=1;
+					};
+					id=7611;
+					type="Land_Pier_Box_F";
+					atlOffset=2.2279999;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item77
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17087.141,0.65254605,21948.535};
+						angles[]={1.5707964,0,0.40247291};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						disableSimulation=1;
+					};
+					id=7623;
+					type="UserTexture10m_F";
+					atlOffset=0.00027287006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectMaterialCustom0";
+							expression="_this setObjectMaterialGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="imgs\helipad.paa";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
 			};
 			id=7530;
-			atlOffset=155.74205;
-		};
-		class Item40
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={17085.152,-22.359131,21948.689};
-				angles[]={0,1.1581901,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=7611;
-			type="Land_Pier_Box_F";
-			atlOffset=2.2283034;
-		};
-		class Item41
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={17086.861,2.4317207,21949.541};
-				angles[]={0,5.8711333,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=7614;
-			type="B_Heli_Light_01_F";
-			atlOffset=1.1920929e-007;
+			atlOffset=23.975607;
 		};
 	};
 	class Connections
